@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_damn_vulnerable_js_sca_1699994967739-pr-trigger-input-set
+  identifier: Build_damn_vulnerable_js_sca_1699994967739prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_damn_vulnerable_js_sca_1699994967739
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
